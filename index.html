@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เซียมซี แม่รำพึงคาเฟ่</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="โลโก้แม่รำพึงคาเฟ่" class="logo">
+        <h1>🔮 เซียมซี "แม่รำพึงคาเฟ่" 🔮</h1>
+        <p>ตั้งจิตอธิษฐาน และกดปุ่มเพื่อเสี่ยงเซียมซี</p>
+        <button onclick="drawFortune()">เสี่ยงเซียมซี</button>
+        <div id="result"></div>
+    </div>
+
+    <!-- Pop-up แสดงผลคำทำนาย -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2 id="popupTitle"></h2>
+            <div id="popupContent"></div>
+            <button onclick="closePopup()">ตกลง</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
